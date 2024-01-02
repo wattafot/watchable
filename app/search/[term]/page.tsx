@@ -23,7 +23,6 @@ async function SearchPage({ params: { term } }: Props) {
           Results for {termToUse}
         </h2>
         <MovieCarousel movies={movies} isVertical />
-        <MovieCarousel title="You may also like" movies={popularMovies} />
       </div>
     </div>
   );
