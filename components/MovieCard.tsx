@@ -14,6 +14,7 @@ function MovieCard({ movie }: { movie: Movie }) {
         width={1920}
         height={1080}
       />
+      <div className="absolute inset-0 bg-gradient-to-b from-gray-900/0 to-gray-900/90" />
     </div>
   );
 }
