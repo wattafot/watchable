@@ -16,7 +16,6 @@ async function GenrePage({ params: { id }, searchParams: { genre } }: Props) {
   if (!id) notFound();
   const Genre = decodeURI(genre);
   const movies = await getDiscoverMovies(id, genre);
-  console.log(movies, "MOVIES");
   return (
     <div className="max-w-7xl mx-auto">
       <div className="flex flex-col space-y-4 mt-32 xl:mt-42">

@@ -30,7 +30,7 @@ function MovieCarousel({ title, movies, isVertical }: Props) {
               >
                 <MovieCard movie={movie} />
                 <div className="max-w-2xl">
-                  <h2 className="pl-8 dark:text-white text-xl font-bold">
+                  <h2 className="dark:text-white text-xl font-bold">
                     {movie.title}
                   </h2>
                   <p className="text-gray-400">{movie.overview}</p>
