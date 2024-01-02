@@ -8,8 +8,8 @@ import GenreDropdown from "./GenreDropdown";
 
 function Header() {
   return (
-    <header className="fixed w-full z-20 top-0 items-center justify-between flex p-5 dark:bg-gradient-to-t from-gray-400/0 via-gray-900/25 to-gray-900">
-      <Link href="/">
+    <header className="fixed w-full z-50 top-0 items-center justify-between flex p-5 dark:bg-gradient-to-t from-gray-400/0 via-gray-900/25 to-gray-900">
+      <Link className="z-50" href="/">
         <Image
           src={
             "https://www.reshot.com/preview-assets/icons/YR43P85X2D/bottle-YR43P85X2D.svg"
@@ -17,7 +17,7 @@ function Header() {
           alt="logo"
           width={60}
           height={60}
-          className="cursor-pointer"
+          className="cursor-pointer z-50"
         />
       </Link>
       <div className="flex space-x-2">
