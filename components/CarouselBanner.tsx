@@ -30,10 +30,12 @@ function CarouselBanner({ movies }: { movies: Movie[] }) {
             />
             <div className="hidden md:inline absolute top-0 left-0 p-12 w-full h-full">
               <div className="h-[65%]" />
-              <h2 className="z-40 text-3xl font-bold max-w-xl py-4">
+              <h2 className="text-white z-40 text-3xl font-bold max-w-xl py-4">
                 {movie.title}
               </h2>
-              <p className="z-40 max-w-lg line-clamp-3">{movie.overview}</p>
+              <p className="text-white z-40 max-w-lg line-clamp-3">
+                {movie.overview}
+              </p>
             </div>
           </div>
         ))}

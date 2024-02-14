@@ -12,7 +12,6 @@ type Props = {
 async function SearchPage({ params: { term } }: Props) {
   if (!term) notFound();
   const termToUse = decodeURI(term);
-  console.log(term, "TERM");
   const movies = await getSearchedMovies(termToUse);
   const popularMovies = await getSearchedMovies(termToUse);
 

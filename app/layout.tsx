@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${montserrat.className} bg-white dark:bg-gray-900`}>
+      <body className={`${montserrat.className} bg-slate-200 dark:bg-gray-900`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
